@@ -1,0 +1,118 @@
+html {
+    overflow-y: hidden;
+}
+#div_1, #div_2 {
+    display: inline-block;
+}
+#div_1 {
+    background-image: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    width: fit-content;
+    height: fit-content;
+    border-radius: 2rem;
+    padding: 3rem;
+}
+#app {
+    height: fit-content;
+    width: fit-content;
+    position: relative;
+    top: 15vh;
+    left: 20vw;
+}
+#div_1 > p {
+    color: rgb(216, 213, 213);
+    font-weight: 500;
+    font-size: 1.5rem;
+    position: relative;
+    left: 4vw;
+    top: 0vh;
+}
+.circle {
+    background-image: linear-gradient(to bottom, hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    width: fit-content;
+    padding: 0rem 2rem;
+    height: fit-content ;
+    border-radius: 4rem;
+    position: relative;
+    top: 2vh;
+    left: 4vw;
+}
+.circle > h1 {
+    color: white;
+    font-size: 3.5rem;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 1rem;
+}
+.circle > p {
+    color: rgb(216, 213, 213);
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: center;
+    position: relative;
+    top: -4vh;
+}
+#div_1 > h2 {
+    color: white;
+    font-size: 2.5rem;
+    position: relative;
+    left: 4vw;
+}
+#div_2 > h2 {
+    position: relative;
+    top: -43vh;
+    left: 4vw;
+    color: hsl(224, 30%, 27%);
+}
+.div > img {
+    width: 2rem;
+}
+.div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: -40vh;
+    left: 4vw;
+    width: 15rem;
+    height: 3rem;
+    background-color: hsl(221, 100%, 96%);
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+}
+.div > h2 > strong {
+    color: rgb(151, 151, 151);
+}
+#div_2 {
+    position: relative;
+    top: 35vh;
+    height: fit-content;
+}
+button {
+    background-color: hsl(224, 30%, 27%);
+    border: none;
+    width: 15rem;
+    height: 3rem;
+    border-radius: 2rem;
+    position: relative;
+    top: -35vh;
+    left: 4vw;
+}
+@media (max-width: 375px) {
+    html {
+        overflow-y: scroll;
+        overflow-x: hidden;
+    }
+    #div_1 {
+        background-image: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+        width: fit-content;
+        height: 60vh;
+        border-radius: 2rem;
+        position: relative;
+        left: -5vw;
+    }
+    #div_2 {
+        position: relative;
+        top: 45vh;
+        left: -5vw;
+    }
+}
